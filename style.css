@@ -1,0 +1,18 @@
+form{
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+.error{
+    background-color: lightblue;
+}
+
+.error.active{
+    background-color: red;
+}
